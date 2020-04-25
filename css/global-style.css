@@ -1,0 +1,299 @@
+@import url("font-awesome.min.css");
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800);
+body {
+	margin: 0 auto;
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	background-color: #f9f6ec;
+	background-image: url(../img/pattern.jpg);
+	background-repeat: repeat;
+	background-position: center center;
+}
+a {
+	color: #a7cd43;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	transition: all 0.20s linear 0s;
+}
+a img {
+	border: 0;
+}
+h1, h1 a {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	margin: 0;
+}
+h2, h2 a {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	margin: 0;
+	text-transform: uppercase;
+}
+h3, h3 a {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	margin: 0;
+}
+h4, h4 a {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0;
+}
+h5, h5 a {
+	color: #464646;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0;
+	text-transform: uppercase;
+}
+h6, h6 a {
+	color: #464646;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0;
+}
+p, ul, ol {
+	color: #000000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+	line-height: 25px;
+}
+hr {
+	background-color: #30c3f1;
+    border: 0 none;
+    height: 1px;
+}
+.wrapper {
+	width: 100%;
+}
+/*-------------------------HEADER START----------------------------*/
+.headerWide {
+	background-color: #15c1f3;
+	border-bottom: 7px solid #ffffff;
+}
+.header {
+	padding: 14px 0 0 0;
+}
+.logo {
+	padding: 0 0 0 20px;
+	position: relative;
+}
+.logo a {
+	bottom: 0px;
+	position: absolute;
+}
+.appointmentButton {
+	text-align: right;
+}
+/*-------------------------HEADER END------------------------------*/
+/*-------------------------MENU START------------------------------*/
+.navigation {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: right;
+}
+.navigation li {
+	display: inline-block;
+	padding: 10px 0;
+}
+.navigation li a {
+	font: 800 13px 'Open Sans', sans-serif;
+	color: #ffffff;
+	display: block;
+	padding: 5px 15px;
+	text-transform: uppercase;
+}
+.navigation li.contactNav a {
+	background-color: #a6ce39;
+}
+.navigation li a:hover,
+.navigation li.active a {
+	text-decoration: underline;
+}
+/*-------------------------MENU END--------------------------------*/
+/*-------------------------CONTENT START---------------------------*/
+.content {
+	margin: 30px auto 63px auto;
+}
+.ctaIcon {
+	width: 100%;
+	min-height:85px;
+	margin-bottom: 15px;
+}
+.cta h2, .cta h2 a {
+	margin: 0 0 33px 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+.cta p {
+	line-height: 26px;
+}
+/*--------About me page start--------*/
+.fullRound {
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+.whiteBorder {
+	border: 5px solid #ffffff;
+}
+.transparentBg {
+	background: rgb(255, 255, 255) transparent; /* default fallback */
+    background: rgba(255, 255, 255, 0.35); /* nice browsers */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#59FFFFFF, endColorstr=#59FFFFFF); /* IE 6/7 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#59FFFFFF, endColorstr=#59FFFFFF)"; /* IE8 */
+	padding: 25px;
+}
+.aboutMeImage {
+	height: 257px;
+	overflow: hidden;
+	width: 257px;
+	margin: 0 auto 13px;
+}
+.aboutMeImage img {
+	max-width: 100%;
+}
+.aboutMeContent,
+.aboutMyPortfolio {
+	margin: 0 0 23px 0;
+}
+.aboutMeContent p {
+	line-height: 26px;
+	margin: 0 0 33px 0;
+}
+.portfolio {
+	padding: 17px 0;
+	display: block;
+	text-align: center;
+	margin: 0 auto; 
+	width: 100px;
+	height: 100px;
+}
+.greenColor {
+	background-color: #a5cd39;
+}
+.blueColor {
+	background-color: #15c2f3;
+}
+.pinkColor {
+	background-color: #ec008d;
+}
+.aboutMyPortfolio h6 {
+	color: #464646;
+	font-size: 14px;
+	font-weight: 800;
+	margin-bottom: 13px;
+	text-transform: uppercase;
+}
+/*--------About me page end --------*/
+/*--------Product and service page start --------*/
+.productsServicesIcon,
+.locationIcon {
+	padding: 21px 15px;
+	margin: 0 auto 33px;
+	height: 168px;
+	text-align: center;
+	width: 168px;
+}
+.productsServices {
+	padding: 25px 17px 0 17px;
+	min-height: 503px;
+}
+.productsServicesIcon img {
+	margin: 0 auto 5px;
+}
+.productsServicesIcon h2,
+.locationIcon h2 {
+	color: #ffffff;
+	font-weight: 700;
+	letter-spacing: -1.5px;
+}
+.productsServices .row {
+	margin-bottom: 23px;
+}
+.productsServices h5 {
+	text-transform: none;
+	font-size: 16px;
+}
+.productsServices h6 {
+	color: #464646;
+	font-weight: normal;
+	text-align: right;
+}
+.productsServices p {
+	font-size: 14px;
+}
+/*--------Product and service page end --------*/
+/*--------Contact page start --------*/
+.contact p, .contact a {
+	color: #363636;
+}
+/*--------Contact page end --------*/
+/*-------------------------FOOTER START----------------------------*/
+.footerwide {
+	margin: 0 0 43px 0;
+}
+.footer {
+	border: 1px dashed #acacac;
+	border-right: none;
+	border-left: none;	
+}
+.footer ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+.footer ul li {
+	display: inline-block;
+	padding: 13px 17px;
+}
+/*-------------------------FOOTER END------------------------------*/
+/*-------------------------CLEAR START-----------------------------*/
+/* Clear Floated Elements */
+/* http://sonspring.com/journal/clearing-floats */
+.clear {
+    clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+.clearfix:after {
+	clear: both;
+	content:' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/*-------------------------CLEAR END-------------------------------*/

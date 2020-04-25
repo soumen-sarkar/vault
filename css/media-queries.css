@@ -1,0 +1,78 @@
+/*Extra large device (Desktops)*/
+@media (min-width: 1200px) and (max-width: 1920px) {
+	
+}
+/*Medium device (Desktops)*/
+@media (min-width: 990px) and (max-width: 1199px) {
+	
+}
+/*Small device (Tablets)*/
+@media (max-width: 989px) {
+	
+}
+/*Extra small device (Phones)*/
+@media (max-width: 767px) {
+	.logo {
+		padding: 0 0 13px 0;
+	}
+	.logo a {
+		bottom: 0px;
+		position: static;
+	}
+	.appointmentButton {
+		text-align: center;
+	}
+	.content {
+	margin: 23px auto;
+	}
+	.cta {
+	margin: 0 0 23px 0;
+	}
+	.ctaIcon {
+	margin: 0 0 5px 0;
+	}
+	.cta h2, .cta h2 a {
+	margin: 0 0 13px 0;
+	}
+	.cta p {
+	line-height: 20px;
+	}
+	.navigation {
+	text-align: center;
+	float: left;
+	width: 100%;
+	}
+	.navigation li {
+	display: block;
+	padding: 5px 0;
+	}
+	.navigation li a {	
+	padding: 5px 15px;
+	}	
+	.cta {
+	margin: 0 0 43px 0;
+	}
+	.cta:last-child {
+	margin: 0;
+	}
+	.transparentBg {
+		padding: 15px;
+	}
+	.aboutMeContent p {
+		line-height: 20px;
+		margin: 0 0 13px 0;
+	}
+	.portfolio {
+		margin: 0 auto 13px;
+	}
+	.productsServices {
+		min-height: inherit;
+		margin: 0 0 13px 0;
+	}
+	.productsServices h5 {
+		font-size: 14px;
+	}
+	.locationIcon {
+		margin: 13px auto;
+	}
+}
